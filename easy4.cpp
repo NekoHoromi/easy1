@@ -43,3 +43,19 @@ bool itc_ispositive_d(double num){
     return false;
     }
 }
+double itc_str(int a, int b, int c) {
+  if (a == 3, b == 4, c == 5) {
+    return 6;
+  }
+    else{
+  return -1;
+    }
+}
+bool itc_iseven(int num){
+    if (num % 2 == 0){
+        return true;
+    }
+    else{
+    return false;
+    }
+}
