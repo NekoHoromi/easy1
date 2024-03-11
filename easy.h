@@ -1,4 +1,4 @@
-6#ifndef EASY_H_INCLUDED
+#ifndef EASY_H_INCLUDED
 #define EASY_H_INCLUDED
 
 void itc_name();
