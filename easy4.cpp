@@ -57,6 +57,7 @@ int itc_str(int a, int b, int c){
         int sab = (a + b + c) / 2;
         return itc_sqrt(sab * ((sab - a) * (sab - b) * (sab - c)));
     }
+}
 
 
 
