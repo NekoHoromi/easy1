@@ -13,7 +13,7 @@ double itc_fmax(double num, double num2);
 double itc_fmin(double num, double num2);
 int itc_sqrt(int num);
 int itc_skv(int num);
-int itc_spr(int a, int b);
+double itc_spr(int a, int b);
 double itc_str(int a, int b, int c);
 double itc_scir(int radius);
 double itc_pow(int num, int step);
