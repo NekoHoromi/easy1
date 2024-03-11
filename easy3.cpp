@@ -17,9 +17,7 @@ int itc_sqrt(int num){
     if (kv * kv == num){
         return kv;
     }
-    else{
     return -1;
-    }
 }
 int itc_skv(int num){
     if (num <= 0){
