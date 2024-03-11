@@ -46,3 +46,13 @@ bool itc_iseven(int num){
     return false;
     }
 }
+int itc_str(int a, int b, int c){
+    if (a <= 0 || b <= 0 || c <= 0){
+        return -1;
+    }
+    if (a + b <= c || a + c <= b || b + c <= a){
+        return -1;
+    }
+    int sab = (a + b + c) / 2;
+    return itc_sqrt(sab * ((sab - a) * (sab - b) * (sab - c)));
+}
