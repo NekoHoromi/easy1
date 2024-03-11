@@ -12,13 +12,17 @@ int itc_abs(int num){
     if (num < 0){
         return -num;
     }
+   else{
     return num;
+   }
 }
 double itc_fabs(double num){
     if (num < 0){
         return -num;
     }
+   else{
     return num;
+   }
 }
 int itc_revnbr(int num){
     int itog = 0;
