@@ -45,8 +45,6 @@ double itc_scir(int radius){
     if (radius == 0){
         return 0;
     }
-    else{
         int pi = 3.14;
     return pi * (radius * radius);
-    }
 }
