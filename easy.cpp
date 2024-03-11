@@ -30,5 +30,5 @@ int itc_revnbr(int num){
         vivod = vivod * 10 + num % 10;
         num /= 10;
     }
-    return itog;
+    return vivod;
 }
