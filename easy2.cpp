@@ -3,14 +3,6 @@
 
 using namespace std;
 
-bool itc_iseven(int num){
-    if (num % 2 == 0){
-        return true;
-    }
-    else{
-    return false;
-    }
-}
 int itc_max(int num, int num2){
     if (num > num2){
         return num;
