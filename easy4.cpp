@@ -4,12 +4,6 @@
 using namespace std;
 
 double itc_pow(int num, int step){
-    /*double num2 = num;
-    double p = 0.001;
-    while ((num2 - num / num2) > p){
-        num2 = (num2 + num / num2) * step;
-    }
-    return num2;*/
     if (step == 0){
         return 1;
     }
