@@ -25,9 +25,9 @@ double itc_fabs(double num){
    }
 }
 int itc_revnbr(int num){
-    int itog = 0;
+    int vivod = 0;
     while (num != 0){
-        itog = itog * 10 + num % 10;
+        vivod = vivod * 10 + num % 10;
         num /= 10;
     }
     return itog;
