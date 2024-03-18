@@ -47,14 +47,19 @@ bool itc_iseven(int num){
     }
 }
 int itc_str(int a, int b, int c){
- if (((a > 0) && (b > 0) && (c > 0)) && (((a > b) && (a > c)) && (b + c > a))){
-        int p = (a + b + c) / 2;
-        return itc_sqrt(p * ((p - a) * (p - b) * (p - c)));
-    }
-    else{
+int maxi;
+    if((a+b+c)%2!=0){
         return -1;
     }
+    int y=(a+b+c)/2;
+    if((a>0&&b>0&&c>0)&&(a+b>c&&c+b>a&&c+a>b)){
+        return itc_sqrt(y*(y-a)*(y-b)*(y-c));
+    }
+else{
+return -1;
 }
+}
+
 
 
 
